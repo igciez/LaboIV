@@ -7,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class LoginComponent implements OnInit {
-
-  public ejemplo='hola';
+  
+  public title = 'hola';
+  public ejemplo = 'funciona';
+  public click = '';
 
   constructor() { }
+
+  pruebaClick() {
+    this.click = 'Click! '
+  }
 
   ngOnInit(): void {
   }

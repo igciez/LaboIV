@@ -1,1 +1,12 @@
-<p>{{ejemplo}}</p>
+<div>
+    <!-- <a routerLink="/login" routerLinkActive="active">Login</a> -->
+    <span>Prueba de bindeo</span>
+    <p>Simple: {{title}} </p>
+
+
+    <input type="text" [(ngModel)]="ejemplo" />
+    <p>Doble: {{ejemplo}}</p>
+
+    <button (click)='pruebaClick()'>{{click}}</button>
+    <span> Fin de Prueba</span>
+</div>
