@@ -1,0 +1,36 @@
+-------
+Links:
+-------
+
+https://material.angular.io/guide/getting-started
+
+---------
+Comandos:
+---------
+
+1) ng update @angular/cli --migrate-only --from=1.3.2
+
+2)  npm i express path
+
+---> START: "ng serve"
+
+------
+Notas:
+------
+
+  Heroku: 
+        1) Hacer repositorio git (con el proyecto agregado y comentado)
+
+        2) Desde heroku generar el dominio
+
+        3) heroku login
+
+        4) heroku git:remote -a nombre-dominio
+
+        5) heroku buildpacks:set https://github.com/mars/create-react-app-buildpack.git -a nombre-dominio
+
+        6) git push heroku master
+
+------
+Hacer:
+------
