@@ -4,6 +4,8 @@ Links:
 
 https://material.angular.io/guide/getting-started
 
+https://stackoverflow.com/questions/40419682/angularjs-typescript-error-ts2307-cannot-find-module-angular
+
 ---------
 Comandos:
 ---------
