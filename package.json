@@ -17,6 +17,8 @@
   },
   "private": true,
   "dependencies": {
+    "@types/angular": "1.6.5",
+    "@types/jquery": "2.0.40",
     "@agm/core": "1.0.0",
     "@angular/animations": "^6.0.0",
     "@angular/cdk": "^6.0.0-beta.1",
